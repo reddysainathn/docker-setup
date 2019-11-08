@@ -25,3 +25,8 @@ alias dkstrt='docker start'
 # Stops a container, it requires the image name \ ID as parameter
 alias dkstp='docker stop'
 EOL
+
+
+if [ -f ~/my_aliases.sh ]; then
+. ~/my_aliases.sh
+fi
