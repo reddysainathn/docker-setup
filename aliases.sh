@@ -1,3 +1,5 @@
+#!bin/bash
+
 cat >> my_aliases.sh <<EOL
 # Default Linux Aliases
 alias dir='ls -ltr'
