@@ -38,6 +38,7 @@ source ~/my_aliases.sh
 fi
 EOT
 else
+  cd
   touch .bashrc
   cat <<EOT >> .bashrc
   if [ -f ~/my_aliases.sh ]; then
