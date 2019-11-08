@@ -37,5 +37,12 @@ if [ -f ~/my_aliases.sh ]; then
 source ~/my_aliases.sh
 fi
 EOT
+else
+  touch .bashrc
+  cat <<EOT >> .bashrc
+  if [ -f ~/my_aliases.sh ]; then
+  source ~/my_aliases.sh
+  fi
+EOT
 fi
 echo "Alias Loading Complete!"
