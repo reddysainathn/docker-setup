@@ -46,4 +46,5 @@ else
   fi
 EOT
 fi
+bash
 echo "Alias Loading Complete!"
