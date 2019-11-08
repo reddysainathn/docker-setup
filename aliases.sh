@@ -28,5 +28,7 @@ EOL
 
 
 if [ -f ~/my_aliases.sh ]; then
-. ~/my_aliases.sh
+source ~/my_aliases.sh
 fi
+
+echo "Alias Loading Complete!"
