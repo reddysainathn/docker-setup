@@ -31,10 +31,11 @@ echo "Alias Loading Started!"
 # if [ -f ~/my_aliases.sh ]; then
 # source ~/my_aliases.sh
 # fi
-
+if [ -f ~/.bashrc ]; then
 cat <<EOT >> .bashrc
 if [ -f ~/my_aliases.sh ]; then
 source ~/my_aliases.sh
 fi
 EOT
+fi
 echo "Alias Loading Complete!"
