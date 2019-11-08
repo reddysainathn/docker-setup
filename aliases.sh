@@ -1,5 +1,4 @@
-
-
+# Default Linux Aliases
 alias dir='ls -ltr'
 alias ll='ls -larth'
 
