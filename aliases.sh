@@ -26,6 +26,7 @@ alias dkstrt='docker start'
 alias dkstp='docker stop'
 EOL
 
+echo "Alias Loading Started!"
 
 if [ -f ~/my_aliases.sh ]; then
 source ~/my_aliases.sh
