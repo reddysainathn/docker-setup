@@ -32,7 +32,7 @@ echo "Alias Loading Started!"
 # source ~/my_aliases.sh
 # fi
 
-cat <<EOT >> .profile
+cat <<EOT >> .bashrc
 if [ -f ~/my_aliases.sh ]; then
 source ~/my_aliases.sh
 fi
