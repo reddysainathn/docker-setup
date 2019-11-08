@@ -1,6 +1,7 @@
 
 
-alias dir = "ls -ltr"
+alias dir='ls -ltr'
+alias ll='ls -larth'
 
 # Docker aliases (shortcuts)
 # List all containers by status using custom format
