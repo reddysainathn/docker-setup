@@ -1,3 +1,4 @@
+cat >> my_aliases.sh <<EOL
 # Default Linux Aliases
 alias dir='ls -ltr'
 alias ll='ls -larth'
@@ -23,3 +24,4 @@ alias dkterm='docker exec -it'
 alias dkstrt='docker start'
 # Stops a container, it requires the image name \ ID as parameter
 alias dkstp='docker stop'
+EOL
